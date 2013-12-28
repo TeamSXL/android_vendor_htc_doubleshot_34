@@ -16,15 +16,15 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-  vendor/htc/doubleshot/proprietary/bin/akmd:system/bin/akmd \
-  vendor/htc/doubleshot/proprietary/bin/awb_camera:system/bin/awb_camera \
-  vendor/htc/doubleshot/proprietary/bin/bma150_usr:system/bin/bma150_usr \
+  vendor/htc-extra/doubleshot/proprietary/bin/akmd:system/bin/akmd \
+  vendor/htc-extra/doubleshot/proprietary/bin/awb_camera:system/bin/awb_camera \
+  vendor/htc-extra/doubleshot/proprietary/bin/bma150_usr:system/bin/bma150_usr \
   vendor/htc-extra/doubleshot/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-  vendor/htc/doubleshot/proprietary/lib/hw/camera.default.so:system/lib/hw/vendor-camera.default.so \
-  vendor/htc/doubleshot/proprietary/lib/hw/sensors.doubleshot.so:system/lib/hw/sensors.doubleshot.so \
-  vendor/htc/doubleshot/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/hw/camera.default.so:system/lib/hw/vendor-camera.default.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/hw/sensors.doubleshot.so:system/lib/hw/sensors.doubleshot.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
@@ -49,16 +49,16 @@ PRODUCT_COPY_FILES += \
   vendor/htc-extra/doubleshot/proprietary/lib/libcameraasd.so:/system/lib/libcameraasd.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_imx105_default_video.so:system/lib/libchromatix_imx105_default_video.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_imx105_zsl.so:system/lib/libchromatix_imx105_zsl.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_mt9d015_default_video.so:system/lib/libchromatix_mt9d015_default_video.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_mt9d015_default_zsl.so:system/lib/libchromatix_mt9d015_default_zsl.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_mt9d015_preview.so:system/lib/libchromatix_mt9d015_preview.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
-  vendor/htc/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_imx105_default_video.so:system/lib/libchromatix_imx105_default_video.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_imx105_zsl.so:system/lib/libchromatix_imx105_zsl.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_mt9d015_default_video.so:system/lib/libchromatix_mt9d015_default_video.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_mt9d015_default_zsl.so:system/lib/libchromatix_mt9d015_default_zsl.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_mt9d015_preview.so:system/lib/libchromatix_mt9d015_preview.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
+  vendor/htc-extra/doubleshot/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libcam_oem_plugin.so:/system/lib/libcam_oem_plugin.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
   vendor/htc-extra/doubleshot/proprietary/lib/libHTC_DIS.so:/system/lib/libHTC_DIS.so \
